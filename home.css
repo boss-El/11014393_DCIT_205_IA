@@ -1,0 +1,125 @@
+
+ body {
+     height: 1000px;
+     width: 100%;
+    
+ }
+
+ .nav-bar {
+     color: rgb(11, 2, 31);
+     height: 120px;
+     display: flex;
+     flex-direction: row;
+     grid-template-columns: 1fr 1frs;
+     margin-bottom: 50px;
+
+     border-radius: 50px;
+     margin-top: 10px;
+ }
+
+ .right-nav {
+     color: rgb(237, 233, 246);
+     background-color: white;
+     border-style: solid;
+     border-color: burlywood;
+     height: 128px;
+     width: 30%;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin-right: 15px;
+     border-top: none;
+     border-left: none;
+     border-bottom: none;
+     margin-right:0;
+
+ }
+
+ .left-nav {
+     display: flex;
+     color: rgb(153, 114, 243);
+     background-color: rgb(249, 246, 251);
+
+     width: 70%;
+     height: 98px;
+     align-content: center;
+     margin-top: 10px;
+     background: rgb(2, 0, 36);
+     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+     border-radius: 50px;
+     border-left: none;
+
+ }
+
+ .element-nav {
+     display: flex;
+     flex-direction: row;
+     border-color: pink;
+     border-style: 50px;
+     height: 95px;
+     width: 100%;
+     align-items: center;
+     top: 50%;
+     margin: 0;
+     padding: 0;
+     justify-content: center;
+     border-top: none;
+     border-radius: 20px;
+
+
+ }
+
+ .edit {
+
+     text-align: center;
+     width: 10%;
+     color: aliceblue;
+
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     padding-top: 50%;
+     padding-bottom: 0%;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+
+ }
+
+ a:hover {
+     text-decoration: underline;
+     color: burlywood;
+
+ }
+
+ .nav-ug-logo {
+     height: 100%;
+     width: 45%;
+ }
+
+ .nav-ug-logo {
+     height: 120px;
+ }
+
+ img {
+     width: 30px;
+ }
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer {
+    background-color: #0f033d;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+ 
+}
