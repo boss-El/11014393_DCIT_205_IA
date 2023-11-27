@@ -12,6 +12,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Roboto:wght@300;400&display=swap"
             rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese&family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,100&family=Roboto:wght@300;400&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+
+        </script>
     </head>
     <style>
     .main{
@@ -35,26 +44,59 @@
     }
     .heading{
         position: absolute;
-        color: white;
+        color: rgb(192, 189, 245);
+        font-weight: 300;
         top: 10%;
-        font-family: 'Noto Serif Balinese', serif;
-        font-family: 'Roboto', sans-serif;
+        font-family: Poppins, sans-serif;
+        margin-left: 10px;
+        font-size: 18px;
     }
     .bold-word{
         font-size: 30px;
         text-align: center;
         margin-bottom: 30px;
         color: burlywood;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 43.2px;
+        font-family: Poppins, sans-serif;
+    }
+    .image-round video{
+        height: 200px;
+        width: 95%;
+        align-items: center;
+        
+        border-radius: 5%;
+     
+        
+        
+        
+    }
+    .button button{
+        width: auto;
+        height: 50px;
+        border-radius: 5px;
+        background-color: transparent;
+        border-color: aqua;
+        color: white;
+        cursor: pointer;
+    }
+    .button button:hover{
+        background-color: rgb(16, 43, 43);
+        box-shadow: 5px 5px 5px aqua;
     }
 
-
+    .button button:active{
+        background-color: antiquewhite;
+   
+    }
     </style>
 
     <body>
     <div class="senior-div">
         <div class="nav-bar">
             <div class="right-nav">
-                <img src="project-imgs/university-of-ghana9757.jpg" alt="ug-logo" class="nav-ug-logo">
+                <img src="project-imgs/comScience_logo.png" alt="ug-logo" class="nav-ug-logo">
             </div>
             <div class="left-nav">
                 <div class="element-nav">
@@ -76,22 +118,22 @@
             <div class="container">
                 <div class="roll">
                     <div class="banner">
-                        <img src="project-imgs/gradient-dark-blue-futuristic-digital-background.jpg" alt="world of IT">
-                        <p class="heading"> <b> <span class="bold-word">Welcome to the University of Ghana Computer Science Department</span>
+                        <img src="project-imgs/90595.jpg">
+                        <p class="heading"> <b> <span class="bold-word">Welcome to the <br> University of Ghana Computer Science Department</span>
 
                         </b> <br><br><br>
                             
                             At the heart of innovation and discovery, our Computer Science Department is a vibrant community of scholars, learners,
                             and creators. We're dedicated to fostering a dynamic learning environment where students engage with cutting-edge
-                            technologies, world-class faculty, and a curriculum designed to shape the future of computing. <br>
+                            technologies, world-class faculty, and a curriculum designed to shape the future of computing. Explore our website to dive deeper into the world of computer science at University of Ghana. Whether you're a
+                            prospective <br> 
+                            student, current student, faculty member, or industry partner, we invite you to be a part of our exciting and
+                            ever-evolving community.<br><span class="image-round"><video src="project-imgs/UG - Department of Computer Science_2.mp4 " controls autoplay loop></video> </span> <br>
                             
+                            <span class="button"><a href="about.html"><button>Explore CS Department</button></a></span>
+                          
                             
-                           Explore our website to dive deeper into the world of computer science at University of Ghana. Whether you're a
-                        prospective
-                        student, current student, faculty member, or industry partner, we invite you to be a part of our exciting and
-                        ever-evolving community.
-                            
-                            <em>Empowering Minds, Transforming Futures.</em><img src="project-imgs/african-woman-sitting-computer-science-class-lady-with-glasses-female-student-sitting-computer.jpg" alt="">
+                            <em>Empowering Minds, Transforming Futures.</em>
                             
                             
                             
@@ -107,43 +149,52 @@
 
         
         <footer>
-            <p>&copy; 2023 Computer Science Department</p>
-            <br>Academics
-            Undergraduate Courses <br>
-            Graduate Courses(MPhil Computer Science) <br>
-            Graduate Courses(MSc Computer Science) <br>
-            Graduate Courses(PhD) <br>
-            Academic Calendar <br>
-            Level 200 & 300 Timetable
-            Placements For Level 200 Students
-            Student Complaint Form
-            Admissions
-            Undergraduate
-            Graduate
-            International Students <br>
+            <div class="footer-div">
+                <div class="subfooter-div">
+                    
+                    <br>Academics
+                    Undergraduate Courses <br>
+                    Graduate Courses(MPhil Computer Science) <br>
+                    Graduate Courses(MSc Computer Science) <br>
+                    Graduate Courses(PhD) <br>
+                    Academic Calendar <br>
+                    International Students <br>
+                </div>
+                <div class="subfooter-div">
+                    
+                    Research <br>
+                    Research at DCS <br>
+                    Research Impact<br>
+                    Libraries<br>
+                    About The Department <br>
+                    Introducing DCS <br>
+                    Head of Department's office <br>
+                    Faculty <br>
+                    Events <br>
+                    Newsletter<br>
+                    
+                </div>
+                <div class="subfooter-div">
+                    Contact Us <br>
+                    <i class="fa fa-phone" style="font-size:24px"></i>
+                +233 501 382 035<br>
+                <i class="fa fa-phone" style="font-size:24px"></i>
+                +233 559 145 698<br>
+                <i style="font-size:24px"></i>
+                dcs@ug.edu.gh <br>
+                <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+                Location :
+                University Of Ghana, Legon Campus <br>
+                Opposite Mathematics Department <br>
+                <p>&copy; 2023 Computer Science Department</p>
+
+            </div>
+                
+                
+                
+                
+        </div>
             
-            Contact Us
-            Research
-            Research at DCS
-            Research Impact
-            Libraries
-            About The Department
-            Introducing DCS
-            Head of Department's office
-            Faculty
-            Events
-            Newsletter
-            Stay update with our latest
-            
-            Enter Email Address
-            Contact Us
-            Phone & Email
-            +233 501 382 035
-            +233 559 145 698
-            dcs@ug.edu.gh
-            Location
-            University Of Ghana, Legon Campus
-            Opposite Mathematics Department
         </footer> 
     </body>
 
