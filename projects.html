@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="home.css">
-    <title>Computer Science Department</title>
+    <title>Student Project</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,72 +19,49 @@
         rel="stylesheet">
 </head>
 <style>
-    .container {
-        display: flex;
-        flex-direction: row;
+ .container{
+  
+    height: 80%;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+ }
+ .subbox{
+     
+    height: 40%;
+    color: white;
+    display: flex;
+    flex-direction: row;
 
-        height: 100%;
-        width: 100%;
-        color: white;
-
-
-    }
-
-    .video {
-
-
-        height: 100%;
-        width: 50%;
-
-
-    }
-
-    .content {
-
-        margin-left: 5px;
-        height: 100%;
-        width: 50%;
-        color: white;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        border-left: none;
-        border-right: none;
+ }
+ .shape{
+   
+    height: 100%;
+    width: 50%;
+    color: white;
+   
 
 
-    }
+ }
+ .text{
+ 
+    height: 100%;
+    width: 50%;
+    color: white;  
+ }
+ .shape img{
+    height: 95%;
+    width: 95%;
+    border-radius: 5%;
+ }
+ h1{
+    color: burlywood;
+ }
+ h4{
+    color: aqua;
+ }
 
-    .video-editing {
-        border-color: burlywood;
-        border-style: solid;
-        height: 33.3333333%;
-        object-fit: fill;
-        text-align: center;
-        border-radius: 5%;
-        border-left: none;
-        border-right: none;
-        margin-top: 5px;
-        margin-bottom: 5px;
-
-    }
-
-    .video-editing video {
-        width: 100%;
-        height: 95%;
-        border-radius: 5%;
-
-    }
-
-    .video-editing img {
-        width: 100%;
-        height: 95%;
-        border-radius: 5%;
-
-    }
-
-    .content h1 {
-        color: burlywood;
-        margin: 0;
-    }
 </style>
 
 <body>
@@ -111,11 +88,39 @@
         </div>
     </div>
 
-    <section class="main-content">
-        <h1>Welcome to the <br>Computer Science Department</h1>
-        <p>This is the home page content. Customize this section with information about the Computer Science Department.
+    <div class="container">
+        <h1>Undergraduate Research Projects</h1>
+       <p>The Department of Computer Science offers as part of its curriculum, research projects to provide solutions that
+    support both basic and applied research, experimental research and industrial projects.</p> 
+    <div class="subbox">
+        <div class="text"><h4>Enhancing Fire Detection with Multi-Sensor System and CNN</h4>
+       <p>This project introduces an advanced fire detection system combining fuzzy logic and Convolutional Neural Networks (CNN).
+    Unlike traditional systems relying on smoke detectors, our approach utilizes multi-sensor data fusion and CNN for
+    proximity and wide-area detection. By identifying fire signatures like flames, smoke, and heat, the system ensures early
+    detection in diverse environments. The incorporation of CNN extends coverage using surveillance cameras. Real-time
+    notifications with location details are sent to Fire and Rescue Crew through a web-based interface, significantly
+    improving detection, alerting, and response times. Experimental results show CNN accuracy at 94% and fuzzy logic at 90%</p>
+        </div>
+        <div class="shape"><img src="project-imgs/project.jpeg" alt=""></div>
+    </div>
+    <div class="subbox">
+        <div class="shape"><img src="project-imgs/student project.jpeg" alt=""></div>
+        <div class="text">
+        <h4>Efficient Fraud Detection in Health Insurance Claims with GSVM-Based Decision Support System</h4>
+        
+        <p>
+            Health insurance claims fraud poses a critical challenge to global healthcare delivery, causing financial losses and
+            hindering timely service provision. This paper addresses the issue through the development of a Decision Support System
+            (DSS) utilizing Genetic Support Vector Machines (GSVMs). The GSVMs, a hybridized data mining and machine learning tool,
+            leverage a dataset from Ghana's National Health Insurance Scheme to automatically detect fraudulent claims. Experimental
+            results demonstrate superior detection and classification performance of GSVMs, with significant reductions in
+            computational time for claims processing and enhanced accuracy across SVM classifiers (linear: 80.67%, polynomial:
+            81.22%, and radial basis function (RBF) kernel: 87.91%).
         </p>
-    </section>
+     </div>
+    </div>
+
+    </div>
 
 <footer>
     <div class="footer-div">

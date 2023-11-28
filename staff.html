@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="home.css">
-    <title>Computer Science Department</title>
+    <title>Staff</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,72 +19,53 @@
         rel="stylesheet">
 </head>
 <style>
-    .container {
-        display: flex;
-        flex-direction: row;
+  .container{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 50px;
+    
+  }
+  .sub1{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .sub2{
+    height: 70%;
+  }
+ .image img{
+    height: 95%;
+    width: 80%;
+    
+  }
+  .sub{
+    width: 5%;
+    height: 10%;
+  }
+  .image{
+    height: 100%;
+    width: 30%;
+  }
+  .about{
+    height: 100%;
+    width: 70%;
+  }
+  h1, h2{
+    color: burlywood;
+  }
+  .about h1, h3{
+    margin: 0;
+  }
 
-        height: 100%;
-        width: 100%;
-        color: white;
-
-
-    }
-
-    .video {
-
-
-        height: 100%;
-        width: 50%;
-
-
-    }
-
-    .content {
-
-        margin-left: 5px;
-        height: 100%;
-        width: 50%;
-        color: white;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        border-left: none;
-        border-right: none;
-
-
-    }
-
-    .video-editing {
-        border-color: burlywood;
-        border-style: solid;
-        height: 33.3333333%;
-        object-fit: fill;
-        text-align: center;
-        border-radius: 5%;
-        border-left: none;
-        border-right: none;
-        margin-top: 5px;
-        margin-bottom: 5px;
-
-    }
-
-    .video-editing video {
-        width: 100%;
-        height: 95%;
-        border-radius: 5%;
-
-    }
-
-    .video-editing img {
-        width: 100%;
-        height: 95%;
-        border-radius: 5%;
-
-    }
-
-    .content h1 {
-        color: burlywood;
-        margin: 0;
-    }
+  h3, h4{
+    color: aqua;
+  }
+  .about p{
+    margin: 0;
+  }
+    
 </style>
 
 <body>
@@ -111,11 +92,63 @@
         </div>
     </div>
 
-    <section class="main-content">
-        <h1>Welcome to the <br>Computer Science Department</h1>
-        <p>This is the home page content. Customize this section with information about the Computer Science Department.
-        </p>
-    </section>
+    <div class="container">
+        <div class="sub1">
+            <div class="image"><img src="project-imgs/mr Soli.jpeg" alt=""></div>
+            <div class="about"><h1>About Lecturer</h1>
+            <h3>Michael Agbo Tettey <br>
+            Lecturer, Software Engineering <br>
+            University of Ghana</h3>
+            
+           <p>Welcome to the profile of Michael Agbo Tettey, a seasoned lecturer in Software Engineering at the University of Ghana.
+        With a profound background in software engineering and algorithm design, Michael is a critical thinker and solutions
+        engineer, showcasing his expertise in solving complex problems with a strong mathematical foundation.</p>
+            
+            <h3>About Me</h3>
+           <p>A passionate individual driven by the beauty and elegance of mathematics, I specialize in Graph Theory, Analytic Number
+        Theory, Image Segmentation, Algorithms, Machine Learning, Artificial Intelligence, and more. My interests extend to
+        various technologies, including Java, NoSQL, Web Services, JavaScript, HTML5, CSS3, Databases, Financial Markets, Neo4j,
+        Cyber Security, and Recommender Systems.</p> </div>
+        </div>
+        <div class="sub2"> <h2>Professional Experience</h2>
+       <p>I have built and led teams of software engineers, spearheading the design, implementation, and deployment of bespoke
+    software solutions across diverse industries. As a lecturer at the University of Ghana, I am committed to imparting
+    knowledge and fostering a deep understanding of software engineering principles among my students.</p>
+        <h2>Skills</h2>
+        <ul>
+            <li>TypeScript</li>
+            <li>Engineering Management</li>
+            <li>Microservices</li>
+            <li>React.js</li>
+            <li>GraphQL</li>
+        
+        </ul>
+            <h2>Notable Projects</h2>
+        <h4>Public Investment Management (PIM) Systems Audit (Government of Ghana):</h4>
+        <p>As part of the QII and GEMS-TA support project, I audited Public Investment Management systems for the Government of
+        Ghana through the Ministry of Finance. This involved analyzing the current PIM ecosystem, identifying bottlenecks,
+        suggesting interim fixes, and providing recommendations to architect an optimal Public Investment Management ecosystem
+        in the Republic of Ghana</p> 
+        
+        <h4>CMS Implementation (Electricity Company of Ghana)</h4>
+       <p>Worked with Indra Sistemas as a senior technical consultant on the implementation of CMS, a utility management system
+    for the Electricity Company of Ghana. Responsibilities included client interfacing, Oracle Database Administration, RHEL
+    Systems Administration, support and training, data analytics, and technical support.</p> 
+        
+        <h4>In-House Solutions</h4>
+        <p>I am responsible for the design and implementation of in-house custom software solutions and their integration with
+        existing systems. These solutions are mostly database-driven web-based applications with web service interfaces,
+        ensuring seamless integrations.</p>
+    </div>
+        
+        
+        
+        
+       
+        
+      
+
+    </div>
 
     <footer>
         <div class="footer-div">
