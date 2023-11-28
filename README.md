@@ -56,6 +56,7 @@ To clone and set up the project locally, follow these steps:
 ![Resources page](<resources screenshot.PNG>)
 
 ![Staff page](<staff screenshot.PNG>)
+![Extra page](<extra screenshot.PNG>)
 
 ## Lessons Learned
 
